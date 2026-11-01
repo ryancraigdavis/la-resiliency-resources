@@ -1,0 +1,47 @@
+# Topic tiles on the home page, in display order.
+# icon: a Lucide icon name (https://lucide.dev/icons).
+- id: detained
+  icon: siren
+  urgent: true
+  label: Someone was detained
+  blurb: Immigration arrest or raid? Get a lawyer and support right now.
+
+- id: start-here
+  icon: compass
+  label: Not sure where to start
+  blurb: One call or search connects you to help of every kind.
+
+- id: food
+  icon: apple
+  label: Food
+  blurb: Free groceries, food pantries, meals, and farmers' market bonuses.
+
+- id: housing
+  icon: house
+  label: Housing & eviction
+  blurb: Tenant rights, affordable housing, and help if you are being evicted.
+
+- id: benefits-health
+  icon: heart-pulse
+  label: Benefits & health care
+  blurb: CalFresh, WIC, cash aid, and health insurance.
+
+- id: immigration-legal
+  icon: scale
+  label: Immigrant rights & legal help
+  blurb: Know your rights and find free or low-cost lawyers.
+
+- id: jobs
+  icon: briefcase
+  label: Jobs & extra income
+  blurb: Job boards, freelance work, and side gigs.
+
+- id: education-english
+  icon: graduation-cap
+  label: School & English classes
+  blurb: Degrees, education funding, and learning English.
+
+- id: church
+  icon: church
+  label: Church programs
+  blurb: Self-reliance courses, job coaching, and support from The Church of Jesus Christ of Latter-day Saints.

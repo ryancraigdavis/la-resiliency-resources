@@ -1,0 +1,15 @@
+# Python
+backend/.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Generated site data (rebuilt by `la-resiliency export`)
+frontend/src/lib/data/*.json
+
+# Local outputs
+resources-for-sheet.csv
+sync-report.md
+
+# Windows download metadata
+*:Zone.Identifier

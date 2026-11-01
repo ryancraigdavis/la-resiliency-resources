@@ -1,0 +1,249 @@
+:root {
+	--bg: #faf7f2;
+	--surface: #ffffff;
+	--surface-2: #f2ede4;
+	--text: #1c2228;
+	--muted: #57616b;
+	--border: #e0d8cc;
+	--primary: #0b5c73;
+	--primary-hover: #084a5d;
+	--primary-ink: #ffffff;
+	--primary-soft: #e2f0f3;
+	--urgent: #b3261e;
+	--urgent-hover: #921d17;
+	--urgent-ink: #ffffff;
+	--urgent-soft: #fcebe9;
+	--urgent-border: #f1c4bf;
+	--lang-ink: #1d6a39;
+	--lang-soft: #e4f3e8;
+	--status-ink: #5a3d9e;
+	--status-soft: #efeafa;
+	--tip-border: #d99a1e;
+	--focus: #e39b0b;
+	--shadow: 0 1px 2px rgb(28 34 40 / 0.06), 0 2px 8px rgb(28 34 40 / 0.04);
+	--radius: 14px;
+	--radius-small: 10px;
+	--font:
+		'Atkinson Hyperlegible Next Variable', 'Vazirmatn Variable', system-ui, -apple-system,
+		'Segoe UI', Roboto, 'Noto Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR',
+		'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		--bg: #121417;
+		--surface: #1a1e23;
+		--surface-2: #232830;
+		--text: #edf0f3;
+		--muted: #a7b0ba;
+		--border: #313840;
+		--primary: #62c4dc;
+		--primary-hover: #86d3e6;
+		--primary-ink: #06161b;
+		--primary-soft: #14313a;
+		--urgent: #ff7a6e;
+		--urgent-hover: #ff9a90;
+		--urgent-ink: #1d0503;
+		--urgent-soft: #351613;
+		--urgent-border: #5c2621;
+		--lang-ink: #86dba2;
+		--lang-soft: #15301f;
+		--status-ink: #c9b8f7;
+		--status-soft: #271e3f;
+		--tip-border: #e0a93a;
+		--focus: #f5b83d;
+		--shadow: none;
+		color-scheme: dark;
+	}
+}
+
+:root[data-theme='dark'] {
+	--bg: #121417;
+	--surface: #1a1e23;
+	--surface-2: #232830;
+	--text: #edf0f3;
+	--muted: #a7b0ba;
+	--border: #313840;
+	--primary: #62c4dc;
+	--primary-hover: #86d3e6;
+	--primary-ink: #06161b;
+	--primary-soft: #14313a;
+	--urgent: #ff7a6e;
+	--urgent-hover: #ff9a90;
+	--urgent-ink: #1d0503;
+	--urgent-soft: #351613;
+	--urgent-border: #5c2621;
+	--lang-ink: #86dba2;
+	--lang-soft: #15301f;
+	--status-ink: #c9b8f7;
+	--status-soft: #271e3f;
+	--tip-border: #e0a93a;
+	--focus: #f5b83d;
+	--shadow: none;
+	color-scheme: dark;
+}
+
+:lang(zh-Hant) {
+	--font:
+		'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, 'PingFang TC',
+		'Microsoft JhengHei', 'Noto Sans TC', 'Noto Sans CJK TC', sans-serif;
+}
+
+:lang(fa) {
+	--font:
+		'Vazirmatn Variable', 'Atkinson Hyperlegible Next Variable', Tahoma, 'Noto Sans Arabic',
+		system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font);
+	font-size: 1.125rem;
+	line-height: 1.55;
+	overflow-wrap: anywhere;
+}
+
+body:lang(fa) {
+	line-height: 1.8;
+}
+
+:lang(ko) {
+	word-break: keep-all;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.25;
+	margin: 0;
+	text-wrap: balance;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: var(--primary);
+	text-underline-offset: 0.18em;
+}
+
+a:hover {
+	color: var(--primary-hover);
+}
+
+:focus-visible {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+button,
+input {
+	font: inherit;
+	color: inherit;
+}
+
+.container {
+	width: 100%;
+	max-width: 46rem;
+	margin-inline: auto;
+	padding-inline: 1rem;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.45rem;
+	min-height: 3rem;
+	padding: 0.55rem 1rem;
+	border: 2px solid transparent;
+	border-radius: 999px;
+	font-weight: 700;
+	font-size: 1.05rem;
+	line-height: 1.2;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.button-primary {
+	background: var(--primary);
+	color: var(--primary-ink);
+}
+
+.button-primary:hover {
+	background: var(--primary-hover);
+	color: var(--primary-ink);
+}
+
+.button-urgent {
+	background: var(--urgent);
+	color: var(--urgent-ink);
+}
+
+.button-urgent:hover {
+	background: var(--urgent-hover);
+	color: var(--urgent-ink);
+}
+
+.button-outline {
+	background: var(--surface);
+	border-color: var(--primary);
+	color: var(--primary);
+}
+
+.button-outline:hover {
+	background: var(--primary-soft);
+}
+
+.button-quiet {
+	background: transparent;
+	color: var(--primary);
+	padding-inline: 0.75rem;
+}
+
+.button-quiet:hover {
+	background: var(--primary-soft);
+}
+
+.ltr {
+	direction: ltr;
+	unicode-bidi: isolate;
+}
+
+@media print {
+	body {
+		background: #fff;
+		color: #000;
+		font-size: 10.5pt;
+	}
+
+	.no-print {
+		display: none !important;
+	}
+}

@@ -1,0 +1,65 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Validate data and test the pipeline
+        working-directory: backend
+        run: |
+          uv run la-resiliency validate
+          uv run ruff check .
+          uv run pytest -q
+
+      - name: Export site data
+        working-directory: backend
+        run: uv run la-resiliency export
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Test and build the site
+        working-directory: frontend
+        env:
+          # Leave empty with a custom domain. Without one, use "/<repository-name>".
+          BASE_PATH: ${{ vars.BASE_PATH }}
+        run: |
+          npm ci
+          npm test
+          npm run check
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: frontend/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

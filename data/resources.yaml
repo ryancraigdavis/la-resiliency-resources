@@ -1,0 +1,774 @@
+# English source of truth, synced from the co-chairs' Google Sheet.
+# Seeded 2026-09-16 from the three Google Docs dated 2026-06-30 (see data/VERIFY.md).
+
+# ---------------------------------------------------------------- Start here
+- id: 211-la
+  categories: [start-here]
+  name: 211 LA
+  url: https://211la.org
+  phones:
+    - number: "211"
+      label: Call or text, 24/7
+  description: LA County's free helpline connecting residents to housing, food, health care, emergency financial aid, and social services. Live Community Resource Advisors assess your situation and make referrals.
+  how_to_get_it: Call or text 211 any time, day or night.
+  tip: Use 211 as your first call when you don't know where to start.
+  cost: free
+  multilingual: true
+  urgent: true
+  last_verified: 2026-06-30
+
+- id: findhelp
+  categories: [start-here]
+  name: FindHelp.org
+  url: https://www.findhelp.org
+  description: Nationwide database of local social services. Search by zip code for food, housing, immigration help, child care, health care, and more.
+  how_to_get_it: Search online by zip code. Free and confidential.
+  cost: free
+  multilingual: true
+  last_verified: 2026-06-30
+
+- id: lacity-residents-portal
+  categories: [start-here]
+  name: City of LA Residents Portal
+  url: https://lacity.gov/residents
+  description: Central hub for City of Los Angeles services, including housing, food, emergency support, and immigration.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Housing
+- id: nhs-la-county
+  categories: [housing]
+  name: Neighborhood Housing Services of LA County
+  url: https://www.nhslacounty.org
+  phones:
+    - number: (888) 895-2647
+  description: Free rental and housing counseling.
+  who_its_for: LA County residents.
+  cost: free
+  last_verified: 2026-06-30
+
+- id: lahd
+  categories: [housing]
+  name: Los Angeles Housing Department (LAHD)
+  url: https://housing.lacity.gov
+  phones:
+    - number: (866) 557-7368
+  description: City department that enforces tenant rights and rent stabilization, and runs affordable housing and first-time homebuyer programs.
+  how_to_get_it: Call to speak with a live person about housing options or to file a complaint about a landlord.
+  last_verified: 2026-06-30
+
+- id: la-affordable-housing-search
+  categories: [housing]
+  name: Affordable Rental Housing Search — City of LA
+  url: https://housing.lacity.gov/housing/affordable-housing
+  description: Searchable list of affordable rental housing throughout the City of Los Angeles.
+  last_verified: 2026-06-30
+
+- id: stay-housed-la
+  categories: [housing]
+  name: Stay Housed L.A.
+  url: https://www.stayhousedla.org
+  description: Eviction defense. A County and City partnership giving renters legal help to stay in their homes.
+  who_its_for: Renters anywhere in LA County.
+  urgent: true
+  last_verified: 2026-06-30
+
+- id: tenant-power-toolkit
+  categories: [housing]
+  name: Tenant Power Toolkit
+  url: https://www.tenantpowertoolkit.org
+  description: Eviction defense. A free online tool that helps tenants file a legal response after being served with eviction papers.
+  tip: "Act fast: tenants have only 5 days to respond after receiving court papers, or they risk automatic eviction."
+  cost: free
+  urgent: true
+  volatile: true
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Food
+- id: la-food-bank-pantry-locator
+  categories: [food]
+  name: LA Regional Food Bank — Pantry Locator
+  url: https://www.lafoodbank.org/find-food/pantry-locator/
+  description: Find food pantries near you anywhere in LA County, with hours, contact information, and other services at each location.
+  how_to_get_it: Search by zip code or address.
+  last_verified: 2026-06-30
+
+- id: 211-food-finder
+  categories: [food]
+  name: 211 LA Food Finder
+  url: https://211la.org/food-resources
+  description: Online map of food pantries, meal programs, and emergency food assistance near you.
+  last_verified: 2026-06-30
+
+- id: familysource-centers
+  categories: [food]
+  name: City of LA FamilySource Centers
+  url: https://www.la4families.org
+  description: 19 FamilySource Centers give out free fresh produce, pantry staples, and groceries every week.
+  who_its_for: All City of LA residents, regardless of immigration status.
+  how_to_get_it: No appointment needed. Find your nearest center by zip code at LA4Families.org.
+  status_ok: true
+  cost: free
+  last_verified: 2026-06-30
+
+- id: la-emergency-food
+  categories: [food]
+  name: Emergency Food Resources — City of LA
+  url: https://emergency.lacity.gov/FoodAssistance
+  description: Searchable map of food distribution sites, pantries, and hot meal programs across Los Angeles.
+  last_verified: 2026-06-30
+
+- id: csfp-senior-food
+  categories: [food]
+  name: Meals for Seniors (CSFP) — LA Regional Food Bank
+  phones:
+    - number: (800) 510-2020
+  description: The Commodity Supplemental Food Program gives free monthly food packages to more than 27,800 seniors.
+  how_to_get_it: Call to find the nearest distribution site and enroll.
+  audience: seniors
+  cost: free
+  last_verified: 2026-06-30
+
+- id: lausd-free-meals
+  categories: [food]
+  name: LAUSD Free Meals for Children
+  description: All LAUSD students get free breakfast and lunch Monday through Friday. Weekend meal kits are also available at participating schools.
+  audience: families
+  cost: free
+  last_verified: 2026-06-30
+
+- id: market-match
+  categories: [food]
+  name: Market Match
+  description: Bonus vouchers for fresh food at farmers' markets when you shop with CalFresh or WIC.
+  how_to_get_it: "CalFresh: up to $15 in extra vouchers. WIC: $10 at the East Hollywood Certified Farmers' Market."
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: east-hollywood-farmers-market
+  categories: [food]
+  name: East Hollywood Certified Farmers' Market
+  description: California-grown produce. Accepts CalFresh and WIC. Serves more than 20,000 customers a year.
+  how_to_get_it: Hollywood & Western. Mondays and Thursdays, 3:30–7:30 pm.
+  last_verified: 2026-06-30
+
+- id: bishops-storehouse
+  categories: [food, church]
+  name: Bishop's Storehouse
+  description: Food and household essentials at no cost, set up like a grocery store. Provided by The Church of Jesus Christ of Latter-day Saints.
+  who_its_for: Church members in need who have already explored the community resources on this site.
+  how_to_get_it: Meet with your bishop. Together you will look at your situation and make a plan toward self-reliance, and your bishop can issue a storehouse order when appropriate.
+  audience: church_members
+  cost: free
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Benefits & health
+- id: calfresh
+  categories: [benefits-health, food]
+  name: CalFresh (SNAP / EBT / food stamps)
+  url: https://www.benefitscal.com
+  phones:
+    - number: (877) 847-3663
+  description: Monthly money for food, loaded onto an EBT card.
+  who_its_for: "U.S. citizens and qualified legal residents with low income. Monthly income limits: 1 person $2,878; 2 people $3,894; 3 people $4,910. Special consideration for seniors and students."
+  how_to_get_it: Apply online at BenefitsCal or by phone. Adults 18–50 without children must work 20 hours a week.
+  tip: Not eligible because of immigration status? See CFAP, the California Food Assistance Program.
+  cost: free
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: cfap
+  categories: [benefits-health, food]
+  name: CFAP — California Food Assistance Program
+  url: https://www.benefitscal.com
+  phones:
+    - number: (877) 847-3663
+  description: State-funded food help with the same monthly benefit as CalFresh.
+  who_its_for: Immigrants who don't qualify for CalFresh because of their immigration status.
+  how_to_get_it: Apply at BenefitsCal, by phone, or at your local DPSS office. If you lose CalFresh because your immigration status changed, the county automatically checks you for CFAP. No separate application is needed.
+  status_ok: true
+  cost: free
+  last_verified: 2026-06-30
+
+- id: wic
+  categories: [benefits-health, food]
+  name: WIC — Women, Infants & Children
+  url: https://www.phfewic.org
+  description: An EBT card for healthy foods, plus nutrition support.
+  who_its_for: Low-income pregnant or breastfeeding women, women who recently lost a child, and children under 5.
+  how_to_get_it: You automatically qualify if you already get CalFresh.
+  audience: families
+  cost: free
+  last_verified: 2026-06-30
+
+- id: capi
+  categories: [benefits-health]
+  name: CAPI — Cash Assistance Program for Immigrants
+  url: https://dpss.lacounty.gov
+  description: Monthly cash assistance, the same amount as SSI.
+  who_its_for: Immigrants who would qualify for SSI but can't get it because of their immigration status.
+  how_to_get_it: You must show proof that you applied for SSI.
+  status_ok: true
+  last_verified: 2026-06-30
+
+- id: medi-cal-full-scope
+  categories: [benefits-health]
+  name: Full Scope Medi-Cal
+  description: Free comprehensive health insurance regardless of immigration status. Covers doctor visits, dental, vision, prescriptions, in-home care, and transportation.
+  who_its_for: Adults age 50 and older.
+  tip: "Getting Medi-Cal will NOT affect your immigration status. Narrow exception: if Medi-Cal pays for long-term nursing home care, talk to an immigration attorney."
+  status_ok: true
+  cost: free
+  volatile: true
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Someone detained
+- id: larrn
+  categories: [detained]
+  name: LARRN — Los Angeles Rapid Response Network
+  phones:
+    - number: (888) 624-4752
+      label: Rapid response hotline
+  description: A coalition of more than 60 community, labor, and faith organizations that responds to immigration enforcement across LA, and can send attorneys for deportation defense.
+  how_to_get_it: Call to report ICE activity, request legal observers, or get an emergency legal intake.
+  status_ok: true
+  cost: free
+  urgent: true
+  last_verified: 2026-06-30
+
+- id: chirla
+  categories: [detained, immigration-legal]
+  name: CHIRLA — Coalition for Humane Immigrant Rights
+  url: https://www.chirla.org
+  phones:
+    - number: (888) 624-4752
+      label: Rapid response hotline
+    - number: (213) 201-3797
+      label: Immigrant assistance referral line
+    - number: (213) 201-8773
+      label: Immigrant assistance referral line
+  description: Rapid response and legal help. Know Your Rights cards, help finding a detained family member, document checklists, and referrals for legal assistance.
+  status_ok: true
+  urgent: true
+  last_verified: 2026-06-30
+
+- id: aclu-socal-rapid-response
+  categories: [detained]
+  name: ACLU SoCal Rapid Response Networks
+  url: https://www.aclusocal.org/california-rapid-response-networks/
+  description: Rapid response teams across Southern California.
+  how_to_get_it: Contact them to report immigration enforcement activity or if a loved one has been detained.
+  status_ok: true
+  urgent: true
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Immigrant rights & legal help
+- id: aclu-know-your-rights
+  categories: [immigration-legal]
+  name: ACLU Know Your Rights
+  url: https://www.aclu.org/know-your-rights
+  description: A plain-language guide to your rights during immigration enforcement. What you must provide, what you can refuse, and what to do if you are detained.
+  status_ok: true
+  multilingual: true
+  last_verified: 2026-06-30
+
+- id: lacity-know-your-rights
+  categories: [immigration-legal]
+  name: Know Your Rights — City of Los Angeles
+  url: https://mayor.lacity.gov/KYR
+  description: The Mayor's Office guide for immigrants in LA. What to do during immigration enforcement, City services available regardless of status, and where to find legal help.
+  status_ok: true
+  multilingual: true
+  last_verified: 2026-06-30
+
+- id: ca-attorney-general-immigrant-rights
+  categories: [immigration-legal]
+  name: Know Your Rights — California Attorney General
+  url: https://oag.ca.gov/immigrant
+  description: State protections for immigrants, your rights during enforcement, workplace protections, and family preparedness resources.
+  status_ok: true
+  multilingual: true
+  last_verified: 2026-06-30
+
+- id: ajsocal
+  categories: [immigration-legal]
+  name: Asian Americans Advancing Justice — Southern California
+  url: https://www.ajsocal.org
+  phones:
+    - number: (888) 349-9695
+      label: English
+      lang: en
+    - number: (800) 520-2356
+      label: Chinese (Mandarin and Cantonese)
+      lang: zh
+    - number: (800) 867-3640
+      label: Korean
+      lang: ko
+    - number: (800) 867-3126
+      label: Khmer
+      lang: km
+    - number: (855) 300-2552
+      label: Tagalog (Filipino)
+      lang: tl
+    - number: (855) 971-2552
+      label: Hindi
+      lang: hi
+    - number: (800) 914-9583
+      label: Thai
+      lang: th
+    - number: (714) 477-2958
+      label: Vietnamese
+      lang: vi
+  description: Know Your Rights guidance and legal referrals, with hotlines in many Asian languages.
+  status_ok: true
+  languages: [en, zh, ko, km, tl, hi, th, vi]
+  last_verified: 2026-06-30
+
+- id: lafla
+  categories: [immigration-legal]
+  name: Legal Aid Foundation of Los Angeles
+  url: https://www.lafla.org
+  description: Immigration legal help.
+  last_verified: 2026-06-30
+
+- id: nlsla
+  categories: [immigration-legal]
+  name: Neighborhood Legal Services of LA County
+  url: https://www.nlsla.org
+  description: Immigration legal help.
+  last_verified: 2026-06-30
+
+- id: public-counsel
+  categories: [immigration-legal]
+  name: Public Counsel
+  url: https://www.publiccounsel.org
+  description: Immigration legal help.
+  last_verified: 2026-06-30
+
+- id: bet-tzedek
+  categories: [immigration-legal]
+  name: Bet Tzedek Legal Services
+  url: https://www.bettzedek.org
+  description: Immigration legal help.
+  last_verified: 2026-06-30
+
+- id: california-immigrant-project
+  categories: [immigration-legal]
+  name: California Immigrant Project
+  url: https://www.caimmigrant.org
+  description: Free immigration legal services statewide.
+  cost: free
+  last_verified: 2026-06-30
+
+- id: ilrc
+  categories: [immigration-legal]
+  name: Immigrant Legal Resource Center (ILRC)
+  url: https://www.ilrc.org
+  description: Immigration legal help.
+  last_verified: 2026-06-30
+
+- id: lawhelpca
+  categories: [immigration-legal]
+  name: LawHelpCA
+  url: https://www.lawhelpca.org
+  description: Find free legal aid near you.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Jobs: job boards
+- id: bandana
+  categories: [jobs]
+  name: Bandana
+  url: https://bandana.com/
+  description: Map-based job search for Los Angeles showing pay, benefits, and commute. Listings come straight from company websites and focus on entry- to mid-level jobs.
+  last_verified: 2026-06-30
+
+- id: calcareers
+  categories: [jobs]
+  name: CalCareers
+  url: https://calcareers.ca.gov/Default.aspx
+  description: Jobs with the State of California, from accounting to zoology. The state provides on-the-job training, and many positions don't require experience or a degree.
+  tip: Not all jobs are in the Los Angeles area.
+  last_verified: 2026-06-30
+
+- id: governmentjobs-lacity
+  categories: [jobs]
+  name: City of Los Angeles Jobs (GovernmentJobs.com)
+  url: https://www.governmentjobs.com/careers/lacity
+  description: Jobs with the City of Los Angeles, from accountant to welder, with good benefits, competitive pay, and paid holidays and leave.
+  last_verified: 2026-06-30
+
+- id: care-com
+  categories: [jobs]
+  name: Care.com
+  url: https://www.care.com/
+  description: Find work as a caregiver in child care, senior care, housekeeping, pet care, tutoring, and more.
+  last_verified: 2026-06-30
+
+- id: indeed
+  categories: [jobs]
+  name: Indeed
+  url: https://www.indeed.com/
+  description: Personalized job recommendations. Post your résumé, browse companies by industry, and read company reviews.
+  last_verified: 2026-06-30
+
+- id: glassdoor
+  categories: [jobs]
+  name: Glassdoor
+  url: https://www.glassdoor.com/index.htm
+  description: Search millions of jobs, and read salaries and company reviews written by employees.
+  last_verified: 2026-06-30
+
+- id: monster
+  categories: [jobs]
+  name: Monster
+  url: https://www.monster.com/
+  description: Find jobs, prepare for interviews, and use free résumé tools including templates, a résumé builder, and feedback.
+  last_verified: 2026-06-30
+
+- id: experteer
+  categories: [jobs]
+  name: Experteer
+  url: https://lp.experteer.com/us-job-search-rcsj/
+  description: Executive and senior-level jobs through a network of more than 20,000 headhunters and recruiters.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Jobs: freelancing
+- id: upwork
+  categories: [jobs]
+  name: Upwork
+  url: https://www.upwork.com/
+  description: The world's largest freelance marketplace, for skills like writing, design, and web development. Short- and long-term projects.
+  how_to_get_it: Create a free profile describing your skills and experience, add examples of your work, and set your rate.
+  tip: Be ready to show examples of previous work. Most freelance sites ask for samples.
+  last_verified: 2026-06-30
+
+- id: fiverr
+  categories: [jobs]
+  name: Fiverr
+  url: https://www.fiverr.com/
+  description: Sell fixed-price services ("gigs") to clients, often for smaller, well-defined tasks.
+  tip: Be ready to show examples of previous work. Most freelance sites ask for samples.
+  last_verified: 2026-06-30
+
+- id: freelancer-com
+  categories: [jobs]
+  name: Freelancer.com
+  url: https://www.freelancer.com/
+  description: A large freelance marketplace similar to Upwork, with millions of users and a wide range of projects.
+  tip: Be ready to show examples of previous work. Most freelance sites ask for samples.
+  last_verified: 2026-06-30
+
+- id: peopleperhour
+  categories: [jobs]
+  name: PeoplePerHour
+  url: https://www.peopleperhour.com/
+  description: A UK-based freelance site that may be less competitive for beginners, with short-term projects and hourly work.
+  tip: Be ready to show examples of previous work. Most freelance sites ask for samples.
+  last_verified: 2026-06-30
+
+- id: behance
+  categories: [jobs]
+  name: Behance
+  url: https://www.behance.net/joblist
+  description: Portfolio site where designers and illustrators show their work, connect with clients, and find jobs.
+  last_verified: 2026-06-30
+
+- id: dribbble
+  categories: [jobs]
+  name: Dribbble
+  url: https://dribbble.com/jobs
+  description: Portfolio site where designers and illustrators show their work, connect with clients, and find jobs.
+  last_verified: 2026-06-30
+
+- id: codeable
+  categories: [jobs]
+  name: Codeable
+  url: https://www.codeable.io/
+  description: Freelance platform for WordPress developers.
+  last_verified: 2026-06-30
+
+- id: toptal
+  categories: [jobs]
+  name: Toptal
+  url: https://www.toptal.com/
+  description: Connects clients with top, vetted freelancers in software development, design, and other tech fields.
+  last_verified: 2026-06-30
+
+- id: flexjobs
+  categories: [jobs]
+  name: FlexJobs
+  url: https://www.flexjobs.com/
+  description: A subscription service that screens every listing, offering remote and flexible jobs with fewer scams.
+  cost: paid
+  last_verified: 2026-06-30
+
+- id: intch
+  categories: [jobs]
+  name: Intch
+  url: https://intch.org/
+  description: Professional networking app that connects experienced professionals with businesses for part-time roles.
+  last_verified: 2026-06-30
+
+- id: remotejobs-io
+  categories: [jobs]
+  name: RemoteJobs.io
+  url: https://www.remotejobs.io/
+  description: Remote jobs by category, reviewed and filtered to remove irrelevant listings.
+  last_verified: 2026-06-30
+
+- id: servicescape
+  categories: [jobs]
+  name: ServiceScape
+  url: https://www.servicescape.com/
+  description: Freelance work in writing, editing, and translation.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Jobs: side gigs
+- id: taskrabbit
+  categories: [jobs]
+  name: TaskRabbit
+  url: https://www.taskrabbit.com/locations/los-angeles
+  description: Get paid for local, in-person tasks like assembling furniture, hanging pictures, organizing garages, gardening, handywork, delivery, and waiting in line.
+  how_to_get_it: Clients choose between several helpers, so make your profile stand out with a good photo and before-and-after pictures of your work.
+  tip: Line-standing tasks pay about $27 an hour on average.
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: angi
+  categories: [jobs]
+  name: Angi
+  url: https://www.angi.com/
+  description: Home services marketplace where handypersons and contractors find home repair and upkeep jobs.
+  tip: Furniture assemblers on Angi typically charge $50 to $150 per piece, depending on size and complexity.
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: thumbtack
+  categories: [jobs]
+  name: Thumbtack
+  url: https://www.thumbtack.com/
+  description: Get matched with local customers who need home care like carpet cleaning, junk removal, pressure washing, and handywork.
+  last_verified: 2026-06-30
+
+- id: fixr
+  categories: [jobs]
+  name: Fixr
+  url: https://www.fixr.com/
+  description: Connects homeowners with contractors for home and business improvement projects.
+  last_verified: 2026-06-30
+
+- id: local-handyman-now
+  categories: [jobs]
+  name: Local Handyman Now
+  url: https://www.local-handyman-now.com/
+  description: Handyman marketplace for home repair, maintenance, and improvement jobs of every size.
+  last_verified: 2026-06-30
+
+- id: line-standing-apps
+  categories: [jobs]
+  name: Line-standing apps (InLine4You, Spotblaze, TaskRabbit)
+  description: Earn money waiting in line for someone at a restaurant, concert, sports game, or other event.
+  last_verified: 2026-06-30
+
+- id: delivery-apps
+  categories: [jobs]
+  name: Delivery apps (Instacart, Uber Eats, Grubhub)
+  description: Earn money delivering groceries, restaurant meals, and other food orders.
+  tip: Instacart drivers usually make $8 to $25 an hour, depending on location.
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: website-testing
+  categories: [jobs]
+  name: Website and app testing (UserTesting, Userlytics, uTest)
+  description: Earn money giving feedback on websites and apps. Businesses use these companies to learn how to improve their products.
+  how_to_get_it: Sign up for notifications about tests that match your skills and interests.
+  tip: Testers typically earn about $20 to $39 an hour, according to Glassdoor.
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: mystery-shopping
+  categories: [jobs]
+  name: Mystery shopping (BestMark, Confero, IntelliShop, Market Force, Second to None)
+  description: Get paid to shop at stores, eat at restaurants, or stay at hotels and report on customer service, cleanliness, and product quality. You can also find gigs through MSPA Americas, a trade group.
+  how_to_get_it: Most companies have you pay for the product or service first and reimburse you afterward. Typical pay is $5 to $25 per gig.
+  tip: "Watch out for scams: stick to established companies, communicate only through official channels, and never accept offers that ask you to cash checks or send money in advance."
+  last_verified: 2026-06-30
+
+- id: transcription
+  categories: [jobs]
+  name: Transcription work (Rev, TranscribeMe, GoTranscript, and more)
+  description: Get paid to type out audio and video recordings like business calls, meetings, and court hearings. Companies include Rev, Speechpad, TranscribeMe, Quicktate, CastingWords, GoTranscript, Transcription HUB, and SpeakWrite.
+  how_to_get_it: "Most pay per audio minute: Speechpad $0.25–$1, Rev $0.30–$1.10, GoTranscript up to $1.75. Legal transcription pays more, such as $15–$40 per audio hour at TranscribeMe."
+  tip: Improve your typing speed and accuracy, use practice tests, and move into legal or medical transcription for higher pay.
+  volatile: true
+  last_verified: 2026-06-30
+
+- id: sidehusl
+  categories: [jobs]
+  name: SideHusl.com
+  description: Reviews and ratings of money-making opportunities, so you can pick a side gig with confidence.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Education & English
+- id: byu-pathway
+  categories: [education-english, church]
+  name: BYU–Pathway Worldwide
+  url: https://www.byupathway.edu/
+  description: Affordable online certificates and university degrees through BYU–Idaho and Ensign College, available in more than 180 countries.
+  last_verified: 2026-06-30
+
+- id: perpetual-education-fund
+  categories: [education-english, church]
+  name: Perpetual Education Fund (PEF)
+  url: https://www.churchofjesuschrist.org/life/education/perpetual-education-fund?lang=eng
+  description: Financial help for education that leads to better work and self-reliance. Has helped more than 110,000 people since 2001.
+  who_its_for: Members of The Church of Jesus Christ of Latter-day Saints.
+  how_to_get_it: PEF help is a loan. Participants repay it so that others can be blessed as they were.
+  audience: church_members
+  last_verified: 2026-06-30
+
+- id: englishconnect
+  categories: [education-english, church]
+  name: EnglishConnect
+  url: https://www.englishconnect.org/
+  description: English classes from The Church of Jesus Christ of Latter-day Saints, in an environment of faith, fellowship, and growth. More than 100,000 learners in over 100 countries.
+  how_to_get_it: Also offered as a self-reliance group.
+  last_verified: 2026-06-30
+
+# ---------------------------------------------------------------- Church programs
+- id: church-employment-services
+  categories: [church, jobs]
+  name: Employment Services — The Church of Jesus Christ
+  url: https://www.churchofjesuschrist.org/life/employment-services?lang=eng
+  description: No one should have to go through a job search alone. Help finding work, starting a business, and growing your career.
+  last_verified: 2026-06-30
+
+- id: church-job-search-network
+  categories: [church, jobs]
+  name: Employment Services Job Search Network
+  url: https://employmentservices.churchofjesuschrist.org/search
+  description: A job board with openings from employers who chose to share them with the Church's Employment Services.
+  last_verified: 2026-06-30
+
+- id: church-employment-coaching
+  categories: [church, jobs]
+  name: Personalized Coaching from an Employment Advisor
+  url: https://employmentservices.churchofjesuschrist.org/jobSeekers
+  description: Request one-on-one coaching from an employment advisor.
+  last_verified: 2026-06-30
+
+- id: church-online-employment-workshops
+  categories: [church, jobs]
+  name: Online Employment Workshops
+  url: https://www.churchofjesuschrist.org/life/online-employment-workshops?lang=eng
+  description: Online workshops on résumé writing, interview preparation, and more.
+  last_verified: 2026-06-30
+
+- id: church-job-search-support-group
+  categories: [church, jobs]
+  name: Online Job Search Support Group
+  url: https://www.churchofjesuschrist.org/life/accelerated-job-search?lang=eng
+  description: Join an online group that supports each other through the job search.
+  last_verified: 2026-06-30
+
+- id: church-ask-an-expert
+  categories: [church, jobs]
+  name: Ask an Expert Online Forum
+  url: https://www.churchofjesuschrist.org/life/ask-an-expert-forum?lang=eng
+  description: Join an online forum and get answers from experts.
+  last_verified: 2026-06-30
+
+- id: church-caring-employment
+  categories: [church]
+  name: Employment Support — Caring for Those in Need
+  url: https://www.churchofjesuschrist.org/serve/caring/employment?lang=eng
+  description: How the Church helps people become self-reliant through tools and services for finding work, starting businesses, and progressing in careers.
+  last_verified: 2026-06-30
+
+- id: church-careers
+  categories: [church, jobs]
+  name: Church Careers
+  url: https://careers.churchofjesuschrist.org/en/sites/ChurchEmployment
+  description: Career jobs with The Church of Jesus Christ of Latter-day Saints and its nonprofit organizations around the world.
+  last_verified: 2026-06-30
+
+- id: deseret-industries
+  categories: [church, jobs]
+  name: Deseret Industries
+  description: A thrift store that helps Church members and others overcome barriers to employment.
+  last_verified: 2026-06-30
+
+- id: transitional-services
+  categories: [church]
+  name: Transitional Services
+  description: Church employees and service missionaries who provide temporal, mental, and spiritual aid to a wide range of people.
+  last_verified: 2026-06-30
+
+- id: humanitarian-center
+  categories: [church]
+  name: Humanitarian Center
+  description: Where Deseret Industries donations are sorted and shipped to help people all over the world.
+  last_verified: 2026-06-30
+
+- id: life-help
+  categories: [church]
+  name: Life Help
+  url: https://www.churchofjesuschrist.org/life?lang=eng
+  description: Help with life's challenges. Whatever your circumstances, the Lord loves you and wants to help you.
+  last_verified: 2026-06-30
+
+- id: self-reliance
+  categories: [church]
+  name: Self-Reliance
+  url: https://www.churchofjesuschrist.org/life/self-reliance?lang=eng
+  description: Heavenly Father has provided ways to build self-reliance, which brings greater independence, self-respect, and spiritual growth through the power of Christ and your own effort.
+  last_verified: 2026-06-30
+
+- id: sr-find-a-better-job
+  categories: [church, jobs]
+  name: "Self-Reliance Course: Find a Better Job"
+  url: https://www.churchofjesuschrist.org/life/self-reliance/courses?lang=eng
+  description: Learn to find opportunities, network, present yourself professionally, and prepare for interviews.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30
+
+- id: sr-education-for-better-work
+  categories: [church, education-english]
+  name: "Self-Reliance Course: Education for Better Work"
+  url: https://www.churchofjesuschrist.org/life/self-reliance/courses?lang=eng
+  description: Gain the skills, knowledge, and confidence to unlock better opportunities, improve your life, and lift those around you.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30
+
+- id: sr-emotional-resilience
+  categories: [church]
+  name: "Self-Reliance Course: Finding Strength in the Lord — Emotional Resilience"
+  url: https://www.churchofjesuschrist.org/life/self-reliance/courses?lang=eng
+  description: You don't have to face life's challenges alone. Learn to think positively, strengthen relationships, improve your mental well-being, and draw strength from God.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30
+
+- id: sr-personal-finances
+  categories: [church]
+  name: "Self-Reliance Course: Personal Finances"
+  url: https://www.churchofjesuschrist.org/life/self-reliance/courses?lang=eng
+  description: Learn to manage your money so you are prepared for life's ups and downs.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30
+
+- id: sr-starting-a-business
+  categories: [church, jobs]
+  name: "Self-Reliance Course: Starting and Growing My Business"
+  url: https://www.churchofjesuschrist.org/life/self-reliance/courses?lang=eng
+  description: Tools, resources, and support to start a business or grow the one you have.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30
+
+- id: sr-life-skills
+  categories: [church, education-english]
+  name: "Self-Reliance Course: Life Skills"
+  url: https://www.churchofjesuschrist.org/self-reliance/course-materials/life-skills?lang=eng
+  description: Research careers and education, find and keep a job, and manage money. Prepares youth for missions, school, military service, and work after high school.
+  who_its_for: Older youth and young single adults.
+  how_to_get_it: Join a self-reliance group.
+  last_verified: 2026-06-30

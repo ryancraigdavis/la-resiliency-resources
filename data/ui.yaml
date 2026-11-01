@@ -1,0 +1,50 @@
+# English text for the site's buttons and labels. Translated automatically.
+# Keep {placeholders} exactly as they are.
+site_name: LA Resiliency Resources
+tagline: Free help with food, housing, immigration, work, and more.
+choose_language: Choose your language
+search_label: What do you need help with?
+search_placeholder: "Try: rent, food, lawyer, job"
+search_button: Search
+clear_search: Clear search
+results_for: Results for "{query}"
+show_more: Show {count} more
+no_results: We couldn't find a match. Try another word, pick a topic below, or call 211.
+browse_topics: Browse by topic
+resource_count: "{count} resources"
+all_topics: All topics
+emergency_title: Need help now?
+emergency_211: Call or text 211. Free, 24 hours a day, in many languages.
+emergency_detained: Someone detained by immigration? Call the rapid response hotline.
+call: Call
+text_message: Text
+more_phone_lines: More phone lines
+website: Website
+share: Share
+link_copied: Link copied
+more_details: More details
+who_its_for: Who it's for
+how_to_get_it: How to get it
+good_to_know: Good to know
+help_in_language: Help in {language}
+help_in_many_languages: Help in many languages
+interpreter_hint: Need help in your language? Call 211 and ask for an interpreter.
+status_ok: Help regardless of immigration status
+free: Free
+paid: Paid
+church_members: For Church members
+seniors: For seniors
+families: For families with children
+students: For students
+checked_on: Checked {date}
+report_problem: Report a problem
+machine_translated: This page was translated by computer. Names, phone numbers, and websites are exactly as listed.
+print_list: Print this list
+print_now: Print
+print_heading: Community resources
+print_scan: Scan for the latest list in your language
+privacy_note: Your searches stay on your device. We don't track you or save what you type.
+footer_about: Compiled by volunteers of the Los Angeles Stake resiliency committee.
+home: Home
+skip_to_content: Skip to main content
+searching: Loading search…
